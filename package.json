@@ -7,7 +7,6 @@
     "develop": "strapi develop",
     "start": "strapi start",
     "build": "strapi build",
-    "gcp-build": "strapi build",
     "strapi": "strapi"
   },
   "devDependencies": {},
