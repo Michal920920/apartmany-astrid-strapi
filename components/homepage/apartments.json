@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_homepage_apartments",
+  "info": {
+    "name": "Apartments",
+    "icon": "home",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Apartment": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.apartment"
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_homepage_about_uses",
+  "info": {
+    "name": "About us",
+    "icon": "comment-dots",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "maxLength": 50
+    },
+    "Text": {
+      "type": "text"
+    },
+    "Image": {
+      "type": "component",
+      "repeatable": true,
+      "component": "nested.image"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Background_image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

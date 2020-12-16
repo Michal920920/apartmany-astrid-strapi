@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "homepages",
+  "info": {
+    "name": "Homepage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "About": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.about-us"
+    },
+    "Apartments": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.apartments"
+    },
+    "Introduction": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.introduction"
+    },
+    "Parallax": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.parallax"
+    },
+    "Contact": {
+      "type": "component",
+      "repeatable": false,
+      "component": "homepage.contact-us"
+    }
+  }
+}

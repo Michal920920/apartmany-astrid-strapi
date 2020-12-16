@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_nested_blocks",
+  "info": {
+    "name": "Block",
+    "icon": "newspaper"
+  },
+  "options": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    }
+  }
+}

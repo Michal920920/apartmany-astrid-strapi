@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_homepage_contact_uses",
+  "info": {
+    "name": "Contact Us",
+    "icon": "phone-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Phone_number": {
+      "type": "string"
+    },
+    "Address": {
+      "type": "richtext"
+    },
+    "Email_address": {
+      "type": "richtext"
+    }
+  }
+}
